@@ -1,0 +1,28 @@
+// если вы хотите использовать sass-переменные - удалите root
+:root {
+  // base
+  --font-family: "Cerebri Sans Pro", sans-serif;
+  --content-width: 1290px;
+  --container-offset: 75px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  // colors
+  --light-color: #fff;
+  --light-color-2: #ebebeb;
+  --background-color: #04081d;
+
+  // gradients
+  --btn-gradient: radial-gradient(
+    121.7% 100% at 50.32% 0%,
+    #22afff 40.91%,
+    #df1dff 100%
+  );
+  --element-gradient: linear-gradient(
+    90deg,
+    rgba(45, 166, 255, 0) 0%,
+    #2da6ff 40.63%,
+    #d524ff 60.42%,
+    rgba(213, 36, 255, 0) 100%
+  );
+  --border-bottom: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+}
